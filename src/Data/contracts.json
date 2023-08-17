@@ -1,0 +1,28 @@
+ [
+        {
+            "address":"0x3617aDBd5Fa162dfb44F15C5e28599DaE0CFde3d",
+            "namePool": "SCM",
+            "yieldField": "27%",
+            "strategy":"Trading and arbitrage",
+            "risk": "Low",
+            "poolSize": "200000",
+            "minEntry": "25",
+            "maxEntry": "200000",
+            "progress": "145000",
+            "token": "USDT",
+            "parent":"vispx"
+        },
+        {
+            "address":"0x4C4121CBBFf68C46D49E203c164479B48423064d",
+            "namePool": "PUBLIC",
+            "yieldField": "18%",
+            "strategy":"Trading and arbitrage",
+            "risk": "Low",
+            "poolSize": "200000",
+            "minEntry": "25",
+            "maxEntry": "200000",
+            "progress": "145000",
+            "token": "USDT",
+            "parent":"weekly"
+        }
+]
