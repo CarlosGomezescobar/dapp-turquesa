@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import logo from "../../assets/logo/logo-benft.png"
+import logo from "../../assets/logo/logo-urano.png"
 import metamaskLogo from "../../assets/icons/metamask.png.png"
 import walletConnect from "../../assets/icons/wallet-connect.png"
 import trustWallet from "../../assets/icons/trust-wallet.png"
@@ -11,7 +11,7 @@ const Login = ({isAllowed,setIsAllowed}) => {
   return (
     <div className='page-login'>
         <div className='page-login-logo'>
-            <img src={logo} alt="Logo BeNFT" />
+            <img src={logo} alt="Urano NFT" />
         </div>
         <div className='page-login-content'>
             <div className='modal-wallets'>

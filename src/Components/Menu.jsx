@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import logo from "../assets/logo/logo-benft.png"
+import logo from "../assets/logo/logo-urano.png"
 import MenuNav from './MenuNav';
 import Comunity from './Comunity';
 
@@ -16,7 +16,7 @@ const Menu = () => {
   return (
     <div className='menu'>
         <div className='logo'>
-            <img className='logo-menu' src={logo} alt="logo-benft" />
+            <img className='logo-menu' src={logo} alt="Urano NFT" /> 
         </div>
         <MenuNav removeAct={removeActive} addAct={addActive} refActive={refActive}/>
 

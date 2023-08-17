@@ -1,8 +1,11 @@
 import React, { useRef, useState } from 'react'
 import collection1 from "../../assets/slider/web-defi.jpg"
 import collection2 from "../../assets/slider/ai-earn-engine.jpg"
+
+
 import card1 from "../../assets/collection/turkey.jpg"
 import card2 from "../../assets/collection/genesis.jpg"
+import card3 from "../../assets/logo/logo-urano.png"
 import Button2 from '../../Components/Button2'
 
 const Collection = () => {
@@ -21,6 +24,12 @@ const Collection = () => {
             description: "Donations NFT Collection designed by BeNFT",
             state: "Soon"
         },
+        {
+            image: card3,
+            tittle: "URANO NFT Pass Bear",
+            description: "Donations NFT Collection designed by BeNFT",
+            state: "12 december"
+        }
     ]
 
     const selectCard = (i)=>{

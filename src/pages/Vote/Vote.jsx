@@ -27,6 +27,9 @@ const Vote = () => {
                     <p>500 Votes.</p>
                 </div>
             </div>
+           
+           
+
         </div>
     </div>
   )

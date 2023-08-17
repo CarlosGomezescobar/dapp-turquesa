@@ -32,6 +32,7 @@ h1,h2,h3,h4,h5,li,a,p,span{
   --gray: #40494e;
   --blue-gray: #232a2d;
   --light-gray: #2d2d2d;
+  --rosadito: #ff4111
 }
 
 html {
@@ -46,7 +47,7 @@ html {
       right: 0;
       height: 100%;
       z-index: -5;
-      background: #245b780c;
+     // background: #245b780c;
     }
 }
 
@@ -65,8 +66,8 @@ body{
     font-feature-settings: normal;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #121312;
-    background-image: url("./bg-body.png");
+   // background-color: #121312;
+   // background-image: url("./bg-body.png");
   
 
     &::before{
@@ -219,10 +220,10 @@ a{
         flex-direction: column;
         height: 100vh;
         // width: 300px;
-        background-color:#121312fa;
+        //background-color:#121312fa;
         position: sticky;
         color: white;
-        background-color: #121312a6;
+       // background-color: #121312a6;
         backdrop-filter: blur(10px);
         overflow-x: hidden;
         overflow-y: scroll;
@@ -261,7 +262,7 @@ a{
         display: none;
         flex-direction: column;
         height: 100vh;
-        background-color:#121312fa;
+       // background-color:#121312fa;
         position: sticky;
         color: white;
         backdrop-filter: blur(10px);
@@ -311,7 +312,7 @@ a{
         gap: 50px;
         height: 100vh;
         overflow-y: scroll;
-        // background-color: #1213125d;
+        background-color: #1213125d;
         background-color: #121312a6;
         backdrop-filter: blur(10px);
         // z-index: ;
@@ -324,10 +325,10 @@ a{
           position: fixed;
           top: 10%;
           left: 65%;
-          background-color: var(--blue-t);
-          -webkit-filter: blur(150px);
-          -o-filter: blur(150px);
-          filter: blur(150px);
+          //background-color: var( --rosadito);
+          //-webkit-filter: blur(150px);
+          //-o-filter: blur(150px);
+         // filter: blur(150px);
         }
 
         .header{
@@ -371,7 +372,7 @@ a{
                 .container-cards-item{
                     width: 300px;
                     height: 200px;
-                    background-color: var(--blue-w);
+                   // background-color: var( --rosadito);
                     border-radius: 10px;
                     position: relative;
                     display: flex;
@@ -398,7 +399,7 @@ a{
                         color: white;
 
                         span{
-                            color: var(--blue-w);
+                            color: var(--rosadito);
                         }
                     }
 
@@ -450,8 +451,8 @@ a{
                         content: '';
                         position: absolute;
                         width: 120px;
-                        // background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
-                        background-image: linear-gradient(180deg, var(--blue-w), var(--blue-w));
+                        background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+                        //background-image: linear-gradient(180deg, var(--rosadito), var(--rosadito));
                         height: 220%;
                         animation: rotBGimg 10s linear infinite;
                         transition: all 0.2s linear;
@@ -1380,7 +1381,7 @@ a{
           position: fixed;
           top: 5%;
           left: 30%;
-          background-color: var(--blue-t);
+         // background-color: var(--blue-t);
           -webkit-filter: blur(150px);
           -o-filter: blur(150px);
           filter: blur(150px);
@@ -1388,7 +1389,7 @@ a{
       }
 
       img{
-        width: 280px;
+        width: 250px;
         height: 107px;
       }
       

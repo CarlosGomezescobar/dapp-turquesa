@@ -11,6 +11,7 @@ import Menu from './Components/Menu';
 import Header from './Components/Header';
 import Login from './pages/Login/Login';
 import WallectConnect, { WalletContext } from './Providers/WallectConnect';
+import ParticlesBackground from './Components/config/ParticlesBackground';
 
 function App() {
   const [modal,setModal] = useState(false)
@@ -42,6 +43,7 @@ function App() {
   return (
     <WallectConnect>
       <div className='container-all'>
+      <ParticlesBackground />
           {
             !isAllowed ? <Login isAllowed={isAllowed} setIsAllowed={setIsAllowed}/> : 
             <>

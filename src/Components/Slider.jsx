@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import {AiOutlineArrowUp,AiOutlineArrowDown} from "react-icons/ai"
-import slider1 from "../assets/slider/what-benft.jpg"
+import slider1 from "../assets/logo/logo-urano.png"
 import slider2 from "../assets/slider/web-defi.jpg"
 import slider3 from "../assets/slider/ai-earn-engine.jpg"
 
@@ -39,7 +39,7 @@ const Slider = () => {
     <div ref={sliderContainer} className="slider-container" data-aos="fade-right" data-aos-duration="1000" >
         <div ref={slideLeft} className="left-slide">
             <div >
-            <h1>What is BeNFT</h1>
+            <h1>What is URANO NFT</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quaerat, quas laboriosam vitae.
             </p>
             </div>
