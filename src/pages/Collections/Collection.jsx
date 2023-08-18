@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import collection1 from "../../assets/slider/web-defi.jpg"
 import collection2 from "../../assets/slider/ai-earn-engine.jpg"
-
+import collection3 from "../../assets/logo/logo-urano.png"
 
 import card1 from "../../assets/collection/turkey.jpg"
 import card2 from "../../assets/collection/genesis.jpg"
@@ -36,11 +36,11 @@ const Collection = () => {
        
         const items = ref0.current.children;
         console.log(items)
-        if(i==0){
+        if(i===0){
             setSelect(0)
             items[0].classList.add("collection-active")
             items[1].classList.remove("collection-active")
-        } else if(i==1){
+        } else if(i===1){
             setSelect(1)
             items[1].classList.add("collection-active")
             items[0].classList.remove("collection-active")
@@ -49,12 +49,14 @@ const Collection = () => {
     }
 
     const selectImg = ()=>{
-        if(select==0){
+        if(select===0){
             return <img src={collection1} alt="" />
-        } else if(select == 1){
+        } else if(select === 1){
             return <img src={collection2} alt="" />
-        }
+        } else if (select === 3){
+            return <img src={collection3} alt="" />
     }
+}
 
   return (
     <div>
@@ -77,7 +79,7 @@ const Collection = () => {
 
             {
             itemsCollection.map((item,i)=> (
-                <div key={i} onClick={()=>selectCard(i)} className={`item-collection ${i == 0 ? "collection-active" : ""} `} >
+                <div key={i} onClick={()=>selectCard(i)} className={`item-collection ${i === 0 ? "collection-active" : ""} `} >
                     <img className='prueba' src={item.image} alt="" />
                     <div className='item-collection-txt'>
                         <h3>{item.tittle}</h3>
