@@ -11,7 +11,7 @@ const Login = ({isAllowed,setIsAllowed}) => {
   return (
     <div className='page-login'>
         <div className='page-login-logo'>
-            <img src={logo} alt="Urano NFT" />
+            {/** <img src={logo} alt="Urano NFT" /> */}
         </div>
         <div className='page-login-content'>
             <div className='modal-wallets'>

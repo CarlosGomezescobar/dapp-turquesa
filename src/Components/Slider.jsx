@@ -1,8 +1,10 @@
 import React, { useEffect, useRef } from 'react'
 import {AiOutlineArrowUp,AiOutlineArrowDown} from "react-icons/ai"
-import slider1 from "../assets/logo/logo-urano.png"
-import slider2 from "../assets/slider/web-defi.jpg"
-import slider3 from "../assets/slider/ai-earn-engine.jpg"
+import slider1 from "../assets/slider/hotel-1.jpeg"
+import slider2 from "../assets/slider/hotel-2.jpeg"
+import slider3 from "../assets/slider/hotel-3.jpeg"
+import slider4 from "../assets/slider/hotel-4.jpeg"
+import slider5 from "../assets/slider/hotel-5.jpeg"
 
 const Slider = () => {
 
@@ -39,7 +41,7 @@ const Slider = () => {
     <div ref={sliderContainer} className="slider-container" data-aos="fade-right" data-aos-duration="1000" >
         <div ref={slideLeft} className="left-slide">
             <div >
-            <h1>What is URANO NFT</h1>
+            <h1>What is Pool Rewars</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quaerat, quas laboriosam vitae.
             </p>
             </div>
@@ -47,8 +49,16 @@ const Slider = () => {
             <h1>Pool 1</h1>
             <p>Weekly 4</p>
             </div>
-            <div >
+            <div>
             <h1>Pool 2</h1>
+            <p>Monthly</p>
+            </div>
+            <div>
+            <h1>Pool 3</h1>
+            <p>Monthly</p>
+            </div>
+            <div>
+            <h1>Pool 5</h1>
             <p>Monthly</p>
             </div>
 
@@ -62,6 +72,12 @@ const Slider = () => {
             </div>
             <div className='right-slide-div'>
                 <img src={slider1} alt="" />
+            </div>
+            <div className='right-slide-div'>
+                <img src={slider4} alt="" />
+            </div>
+            <div className='right-slide-div'>
+                <img src={slider5} alt="" />
             </div>
 
         </div>

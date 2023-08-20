@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Vote = () => {
+const Pool = () => {
     let weekly = 5;
     let votes = 251;
 
   return (
-    <div >
+    <div>
         <div className='container-route votes'>
             <div className='votes-left'
             data-aos="fade-right"
@@ -35,4 +35,4 @@ const Vote = () => {
   )
 }
 
-export default Vote
+export default Pool

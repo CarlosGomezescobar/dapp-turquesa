@@ -1,11 +1,11 @@
 import React, { useRef, useState } from 'react'
-import collection1 from "../../assets/slider/web-defi.jpg"
-import collection2 from "../../assets/slider/ai-earn-engine.jpg"
+import collection1 from "../../assets/slider/hotel-1.jpeg"
+import collection2 from "../../assets/slider/hotel-2.jpeg"
+import collection3 from "../../assets/slider/hotel-5.jpeg"
 
-
-import card1 from "../../assets/collection/turkey.jpg"
-import card2 from "../../assets/collection/genesis.jpg"
-import card3 from "../../assets/logo/logo-urano.png"
+import card1 from "../../assets/slider/hotel-3.jpeg"
+import card2 from "../../assets/slider/hotel-4.jpeg"
+import card3 from "../../assets/slider/hotel-5.jpeg"
 import Button2 from '../../Components/Button2'
 
 const Collection = () => {
@@ -20,13 +20,13 @@ const Collection = () => {
         },
         {
             image: card2,
-            tittle: "BeNFT Pass Genesis",
+            tittle: " Pass Genesis",
             description: "Donations NFT Collection designed by BeNFT",
             state: "Soon"
         },
         {
             image: card3,
-            tittle: "URANO NFT Pass Bear",
+            tittle: " NFT Pass Bear",
             description: "Donations NFT Collection designed by BeNFT",
             state: "12 december"
         }
@@ -44,6 +44,10 @@ const Collection = () => {
             setSelect(1)
             items[1].classList.add("collection-active")
             items[0].classList.remove("collection-active")
+        }else if(i==2){
+            setSelect(2)
+            items[2].classList.add("collection-active")
+            items[0].classList.remove("collection-active")
         }
         
     }
@@ -51,6 +55,11 @@ const Collection = () => {
     const selectImg = ()=>{
         if(select==0){
             return <img src={collection1} alt="" />
+        } else if(select == 1){
+            return <img src={collection2} alt="" />
+        }
+        if(select==2){
+            return <img src={collection3} alt="" />
         } else if(select == 1){
             return <img src={collection2} alt="" />
         }

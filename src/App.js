@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import { Route,Routes } from 'react-router-dom';
 import { useContext, useEffect, useState } from 'react';
 import Home from './pages/Home/Home';
-import Vote from './pages/Vote/Vote';
+import Pool from './pages/Vote/Pool';
 import Collection from './pages/Collections/Collection';
 import EarnDinamic from './pages/Earns/EarnDinamic';
 import Menu from './Components/Menu';
@@ -12,6 +12,7 @@ import Header from './Components/Header';
 import Login from './pages/Login/Login';
 import WallectConnect, { WalletContext } from './Providers/WallectConnect';
 import ParticlesBackground from './Components/config/ParticlesBackground';
+
 
 function App() {
   const [modal,setModal] = useState(false)
@@ -53,7 +54,7 @@ function App() {
               <div className='container-routes'>
                 <Routes>
                   <Route path="/" element={<Home/>} />
-                  <Route path="/vote" element={<Vote />} />
+                  <Route path="/pool" element={<Pool />} />
                   <Route path="/collection" element={<Collection />} />
                   <Route path="/earn-strategies/:address" element={<EarnDinamic />} />
                 </Routes>
