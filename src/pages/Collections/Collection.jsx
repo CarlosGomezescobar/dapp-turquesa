@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import collection1 from "../../assets/slider/hotel-1.jpeg"
 import collection2 from "../../assets/slider/hotel-2.jpeg"
-import collection3 from "../../assets/slider/hotel-5.jpeg"
+import collection3 from "../../assets/slider/hotel-3.jpeg"
 
 import card1 from "../../assets/slider/hotel-3.jpeg"
 import card2 from "../../assets/slider/hotel-4.jpeg"
