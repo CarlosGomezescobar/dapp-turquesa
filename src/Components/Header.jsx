@@ -1,6 +1,6 @@
 import React, { useContext, useRef, useState } from 'react'
 import Button from './Button'
-import logoMin from "../assets/logo/logo-min.png"
+// import logoMin from "../assets/logo/logo-min.png"
 import MenuMobile from './MenuMobile'
 import {IoIosArrowDown} from "react-icons/io";
 import {FiLogOut} from "react-icons/fi"

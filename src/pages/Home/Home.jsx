@@ -21,7 +21,7 @@ const Home = () => {
             <div className='container-cards-item-icon'>
                 <TbBrandAirbnb size={"25px"}/>
             </div>
-            <h2>Unete al Pool  25% 🔥 <span>Conecta tu Wallet y Recibe el bonos de Bienvenida ♨. </span></h2>
+            <h2>Unete al Pool  25% 🔥 Conecta con nosotros </h2>
         </div>
         <div className='btn3'
         data-aos="fade-up"
@@ -84,7 +84,7 @@ const Home = () => {
         </p>
       </h5>
       <p className="font-normal text-gray-700 dark:text-gray-400">
-        <p>
+        <p> 
           Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
         </p>
       </p>
@@ -99,8 +99,8 @@ const Home = () => {
     </Card>
 
     
-<h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Invierte en Casas y Obten 25% de Ganancias Pasivas <span class="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">Web 3.0 </span></h1>
-<p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Here at we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+<h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Invierte en Casas y Obten 25% de Ganancias Pasivas <span class="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">Web 3.0 </span></h1>
+<p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Here at we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
 
 {/**Tablas */}
 <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
@@ -139,7 +139,7 @@ const Home = () => {
                 <td className="px-6 py-4 font-medium text-white whitespace-nowrap dark:text-white">
                      $1.548💸
                 </td>
-                <td class="px-6 py-4 font-medium text-white whitespace-nowrap dark:text-white">
+                <td className="px-6 py-4 font-medium text-white whitespace-nowrap dark:text-white">
                     <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Conect Wallet</a>
                 </td>
             </tr>
@@ -157,7 +157,7 @@ const Home = () => {
                 <td className="px-6 py-4 font-medium text-white whitespace-nowrap dark:text-white">
                      $150💸
                 </td>
-                <td class="px-6 py-4 font-medium text-white whitespace-nowrap dark:text-white">
+                <td className="px-6 py-4 font-medium text-white whitespace-nowrap dark:text-white">
                     <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Conect Wallet</a>
                 </td>
             </tr>
@@ -175,7 +175,7 @@ const Home = () => {
                 <td className="px-6 py-4 font-medium text-white whitespace-nowrap dark:text-white">
                      $14.896💸
                 </td>
-                <td class="px-6 py-4 font-medium text-white whitespace-nowrap dark:text-white">
+                <td className="px-6 py-4 font-medium text-white whitespace-nowrap dark:text-white">
                     <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Conect Wallet</a>
                 </td>
             </tr>
